@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    text-align: center;
+    background-color: #A1C3D1;
+}
+
+nav{
+    position: absolute;
+    width: 5000px;
+    height: 40px;
+    margin-top: 50px;
+    background-color:  #B39BC8;
+
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    display: flex;
+    gap: 50px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.block{
+    width: 550px;
+    height: 150px;
+
+    background-color: #2d2c31;
+}
+
+.shadowmario{
+    position: absolute;
+    left: 450px;
+    top: -5px;
+
+    width: 200px;
+    height: 200px;
+}
