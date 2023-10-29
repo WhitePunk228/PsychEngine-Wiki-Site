@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "FnfWeekUiFont";
+    src: url("font/FnfWeekUiFont.ttf");
+  }
+
 *{
     padding: 0;
     margin: 0;
@@ -6,6 +11,8 @@
 body{
     text-align: center;
     background-color: #A1C3D1;
+    font-family: 'FnfWeekUiFont', serif;
+
 }
 
 nav{
@@ -21,20 +28,6 @@ nav{
 
 }
 
-a{
-    text-decoration: none;
-    color: black;
-}
-
-ul{
-    display: flex;
-    gap: 50px;
-}
-
-li{
-    list-style-type: none;
-}
-
 .block{
     width: 550px;
     height: 150px;
@@ -44,9 +37,101 @@ li{
 
 .shadowmario{
     position: absolute;
-    left: 450px;
-    top: -5px;
+    left: 480px;
+    top: 320px;
 
     width: 200px;
     height: 200px;
+}
+
+h1{
+    font-size: 40px;;
+}
+
+.smText{
+    color: white;
+    font-size: 30px;
+    text-align: left;
+}
+
+.name{
+    font-size: 100px;
+    margin: 50px;
+}
+
+
+.block2{
+    width: 550px;
+    height: 150px;
+    position: absolute;
+    right: 0px;
+
+    background-color:  #9bc89f;
+}
+
+.bbpanzu{
+    position: absolute;
+    left: -150px;
+    top: -35px;
+
+    width: 260px;
+    height: 260px;
+    transform: scale(-1, 1)
+}
+
+.bbText{
+    color: white;
+    font-size: 30px;
+    text-align: right;
+}
+
+.block3{
+    width: 550px;
+    height: 150px;
+
+    background-color:  #c89bbc;
+
+    position: fixed;
+    top: 600px;
+}
+
+.riveren{
+    position: absolute;
+    left: 450px;
+    top: -10px;
+
+    width: 260px;
+    height: 260px;
+}
+
+.riText{
+    color: white;
+    font-size: 30px;
+    text-align: left;
+}
+
+.block4{
+    width: 550px;
+    height: 150px;
+    position: fixed;
+    right: 0px;
+    top:  750px;
+
+    background-color:  #82a9c3;
+}
+
+.shubs{
+    position: absolute;
+    left: -150px;
+    top: -10px;
+
+    width: 260px;
+    height: 260px;
+    transform: scale(-1, 1)
+}
+
+.shText{
+    color: white;
+    font-size: 30px;
+    text-align: right;
 }
