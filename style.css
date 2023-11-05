@@ -38,7 +38,7 @@ nav{
 .shadowmario{
     position: absolute;
     left: 480px;
-    top: 320px;
+    top: 20px;
 
     width: 200px;
     height: 200px;
@@ -92,7 +92,7 @@ h1{
     background-color:  #c89bbc;
 
     position: fixed;
-    top: 600px;
+    top: 613px;
 }
 
 .riveren{
@@ -115,7 +115,7 @@ h1{
     height: 150px;
     position: fixed;
     right: 0px;
-    top:  750px;
+    top:  763px;
 
     background-color:  #82a9c3;
 }
@@ -134,4 +134,75 @@ h1{
     color: white;
     font-size: 30px;
     text-align: right;
+}
+
+.apha{
+    visibility: hidden;
+}
+
+
+.block{
+    animation: splash 2s normal forwards ease-in-out;
+}
+.block:hover{
+    animation: hover 2s infinite alternate ease-in-out;
+}
+
+.block2{
+    animation: splash2 2s normal forwards ease-in-out;
+}
+.block2:hover{
+    animation: hover2 2s infinite alternate ease-in-out;
+}
+
+.block3{
+    animation: splash 2s normal forwards ease-in-out;
+}
+.block3:hover{
+    animation: hover 2s infinite alternate ease-in-out;
+}
+
+.block4{
+    animation: splash2 2s normal forwards ease-in-out;
+}
+.block4:hover{
+    animation: hover2 2s infinite alternate ease-in-out;
+}
+
+@keyframes hover {
+    from {
+        transform: translateX(-100%)
+    }
+    to {
+        transform: translateX(0%)
+
+    }
+}
+
+@keyframes splash {
+    from {
+        transform: translateX(-100%)
+    }
+    to {
+        transform: translateX(0%)
+    }
+}
+
+@keyframes hover2 {
+    from {
+        transform: translateX(100%)
+    }
+    to {
+        transform: translateX(0%)
+
+    }
+}
+
+@keyframes splash2 {
+    from {
+        transform: translateX(100%)
+    }
+    to {
+        transform: translateX(0%)
+    }
 }
